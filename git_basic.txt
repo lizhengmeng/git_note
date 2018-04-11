@@ -17,7 +17,7 @@ git常用基本命令：
     git checkout -- 文件名：让文件回到最近一次git commit或git add时的状态。
     git reset HEAD 文件名：把暂存区的修改撤销掉（unstage），重新放回工作区。
     git rm 文件名：从版本库中删除该文件。
-    git remote add 远程库名字 git@github.com:lizhengmeng/baiduAI.git：让本地仓库与远程仓库关联。
+    git remote add origin git@github.com:lizhengmeng/baiduAI.git：让本地仓库与远程仓库关联。
     git push：把本地库的内容推送到远程。
     git push -u origin master：第一次推送master分支的所有内容。
     git push origin master：把本地库的内容推送到远程。
