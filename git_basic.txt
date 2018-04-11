@@ -10,6 +10,7 @@ git常用基本命令：
     git diff HEAD -- 文件名：查看工作区和版本库里面最新版本的区别。
     git log：显示从最近到最远的提交日志。
     git log --pretty=oneline：简化输出日志。
+    git log --graph：可以看到分支合并图。
     git reset：回退仓库版本。
     git reset --hard HEAD^：回退到上一个版本（上一个版本就是HEAD^，上上一个版本就是HEAD^^，往上回退100个版本可写成HEAD~100），之后push的commit id会消失。
     git reset --hard 版本号：指定回到某个commit id的版本（版本号没必要写全，前几位就可以了，Git会自动去找。当然也不能只写前一两位，因为Git可能会找到多个版本号，就无法确定是哪一个了）。
