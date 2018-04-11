@@ -1,0 +1,27 @@
+git常用基本命令：
+    pwd：显示当前目录。
+    cat 文件名：输出显示该文件内容。
+    git init：在当前目录下创建新创库。
+    git add：把文件添加到仓库。
+    git commit -m "说明"：把文件提交到仓库。
+    git status：查看仓库当前状态。
+    git diff：查看工作区(work dict)和暂存区(stage)的比较。
+    git diff --cached：查看暂存区(stage)和分支(master)的比较。
+    git diff HEAD -- 文件名：查看工作区和版本库里面最新版本的区别。
+    git log：显示从最近到最远的提交日志。
+    git log --pretty=oneline：简化输出日志。
+    git reset：回退仓库版本。
+    git reset --hard HEAD^：回退到上一个版本（上一个版本就是HEAD^，上上一个版本就是HEAD^^，往上回退100个版本可写成HEAD~100），之后push的commit id会消失。
+    git reset --hard 版本号：指定回到某个commit id的版本（版本号没必要写全，前几位就可以了，Git会自动去找。当然也不能只写前一两位，因为Git可能会找到多个版本号，就无法确定是哪一个了）。
+    git reflog：显示每次提交或操作日志。
+    git checkout -- 文件名：让文件回到最近一次git commit或git add时的状态。
+    git reset HEAD 文件名：把暂存区的修改撤销掉（unstage），重新放回工作区。
+    git rm 文件名：从版本库中删除该文件。
+    git remote add 远程库名字 git@github.com:lizhengmeng/baiduAI.git：让本地仓库与远程仓库关联。
+    git push：把本地库的内容推送到远程。
+    git push -u origin master：第一次推送master分支的所有内容。
+    git push origin master：把本地库的内容推送到远程。
+
+
+
+
