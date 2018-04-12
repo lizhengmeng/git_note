@@ -27,7 +27,8 @@ git常用基本命令：
     git branch 分支名：创建分支。
     git checkout 分支名：切换分支。
     git checkout -b 分支名：创建+切换分支。
-    git merge 分支名：合并某分支到当前分支。
+    git merge 分支名：合并某分支到当前分支，fast forward合并就看不出来曾经做过合并。
     git branch -d 分支名：删除分支。
+    git merge --no-ff -m "说明" 分支名：普通模式合并，合并后的历史有分支，能看出来曾经做过合并。
 
 
