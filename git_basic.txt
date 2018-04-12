@@ -42,3 +42,11 @@ git常用基本命令：
     git pull：从远程抓取分支，推送失败时使用。
     git checkout -b 本地分支名 远程库别名/远程分支名：在本地创建和远程分支对应的分支，本地和远程分支的名称最好一致。
     git branch --set-upstream 本地分支名 远程库别名/远程分支名：建立本地分支和远程分支的关联，git pull提示“no tracking information”时使用。
+    git tag：查看所有标签。
+    git tag 标签名：新建一个标签，默认标签是打在最新提交的commit上。
+    git tag 标签名 commit_id：给指定的commit_id打一个新标签。
+    git show 标签名：查看该标签的信息。
+    git tag -a 标签名 -m "标签说明" commit_id：给指定的commit_id打一个新标签，并添加标签说明。
+
+
+
