@@ -37,4 +37,8 @@ git常用基本命令：
     git stash drop：删除stash中存储的内容。
     git stash pop：恢复并删除已存储的工作区内容。
     git stash apply stash@{0}：恢复指定的stash@{0}，stash内容。
-
+    git remote -v：查看远程库信息。
+    git push 远程库别名 分支名：从本地推送分支。
+    git pull：从远程抓取分支，推送失败时使用。
+    git checkout -b 本地分支名 远程库别名/远程分支名：在本地创建和远程分支对应的分支，本地和远程分支的名称最好一致。
+    git branch --set-upstream 本地分支名 远程库别名/远程分支名：建立本地分支和远程分支的关联，git pull提示“no tracking information”时使用。
