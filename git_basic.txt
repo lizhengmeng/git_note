@@ -55,6 +55,6 @@ git常用基本命令：
     git push origin :refs/tags/标签名：删除远程上的标签，前提现将本地的标签删除。
     git check-ignore：检查.gitignore规则，在git add错误时检查。
     git config --global alias.st status：st就表示status，给命令配置别名。
-    git fetch origin：从远程库更新代码到本地仓库。
+    git fetch 远程库别名：从远程库更新代码到本地仓库。
 
 
